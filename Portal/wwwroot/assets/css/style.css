@@ -6,6 +6,8 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1416,3 +1418,20 @@ section {
   text-decoration: none;
 }
 
+.main-body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media only screen and (min-width: 600px) {
+    body {
+       height:100%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    body {
+        height: 100vh;
+    }
+}
